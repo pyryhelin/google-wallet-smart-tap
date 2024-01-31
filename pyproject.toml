@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "google-smart-tap"
+version = "2024.1"
+dependencies = [
+  "cryptography","nfcpy"
+]
+requires-python = ">=3.10"
+authors = [
+  {name = "Pyry Helin", email = "pyry@pyry.tech"},
+]
+maintainers = [
+  {name = "Pyry Helin", email = "pyry@pyry.tech"},
+]
+
+description = "Package for communicating with Google wallet with Smart Tap protocol."
+readme = "README.md"
+license = {file = "LICENSE"}
+
+
+[project.urls]
+Repository = "https://github.com/pyryhelin/google-smart-tap-python.git"
+"Bug Tracker" = "https://github.com/pyryhelin/google-smart-tap-python/issues"
