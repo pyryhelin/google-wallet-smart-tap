@@ -4,7 +4,7 @@
 
 
 ```
-pip install bababa
+pip install git+https://github.com/pyryhelin/google-wallet-smart-tap
 ```
 
 ## usage
